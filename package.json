@@ -1,0 +1,21 @@
+{
+  "name": "thickplate-weld-offline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "厚板多层多道排道与焊接机器人离线编程系统",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.169.0",
+    "tsx": "^4.19.2",
+    "typescript": "5.6.3",
+    "vite": "5.4.11"
+  }
+}
